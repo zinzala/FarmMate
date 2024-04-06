@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".AddressDetails">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/maps"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="100dp"
+        />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_marginTop="20dp"
+        android:hint="Enter full address and phone number"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/btn_confirm_address"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="25dp"
+        android:text="Submit" />
+
+</LinearLayout>

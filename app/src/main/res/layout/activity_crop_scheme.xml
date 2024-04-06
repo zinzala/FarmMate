@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E0C9"
+    tools:context=".ActivityCropScheme">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary3"
+        android:textStyle="bold"
+        android:text="  Scheme Types In Indian Government"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_alignParentTop="true"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_below="@id/textTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="37dp"
+        android:elevation="12dp"
+        android:src="@drawable/krushi" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="- Central Sector Schemes -"
+        android:layout_below="@id/imageCenter"
+        android:layout_marginTop="47dp"
+
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary3"
+        android:elevation="12dp"
+        android:stateListAnimator="@null" /> <!-- Disable default animation for elevation -->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="75dp"
+        android:textSize="18dp"
+        android:text="- Centrally Sponsored Schemes -"
+        android:layout_below="@id/button1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary3"
+        android:elevation="12dp"
+        android:stateListAnimator="@null" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:text="- Krishonnati Yojana -"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary3"
+        android:elevation="12dp"
+        android:stateListAnimator="@null" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="75dp"
+        android:text="- Other Schemes -"
+        android:textSize="18dp"
+        android:layout_below="@id/button3"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary3"
+        android:elevation="12dp"
+        android:stateListAnimator="@null" />
+
+</RelativeLayout>
