@@ -179,7 +179,7 @@ class OrderManager extends Controller
     //     $apiURL = "https://maps.googleapis.com/maps/api/distancematrix/json
     //     ?destinations=$user->destination_lat,$user->destination_lon
     //     &origins=$origin_lat,$origin_lon
-    //     &key=AIzaSyB-9QSBjgpFIp8NPnN7SBT6dMtx_4_Mc8A";
+    //     
     //     $response = json_decode(Http::get($apiURL));
     //     $dist_dur['distance'] = $response->rows[0]->elements[0]->distance->value;
     //     $dist_dur['duration'] = $response->rows[0]->elements[0]->duration->value;
